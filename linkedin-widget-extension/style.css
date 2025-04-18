@@ -1,0 +1,63 @@
+#linkedin-enhancer-widget {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 280px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 12px;
+  font-family: Arial, sans-serif;
+  z-index: 9999;
+}
+
+#linkedin-enhancer-widget .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#linkedin-enhancer-widget .match-score {
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background: #eee;
+  border-radius: 8px;
+  height: 10px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: #4caf50;
+  height: 100%;
+  transition: width 0.4s ease;
+}
+
+.account-status {
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.green {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.red {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+#toggle-widget {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
